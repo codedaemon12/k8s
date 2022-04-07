@@ -1,0 +1,38 @@
+ kubectl get nodes
+
+kubectl version
+
+kubectl get nodes
+
+kubectl get pods
+
+kubectl get services
+
+kubectl create help
+
+kubectl create -h
+
+kubectl create deployment nginx-depl --image=nginx
+
+kubectl get deployment
+
+kubectl get pods
+
+kubectl get replicaset
+
+kubectl edit deployment nginx-depl
+
+kubectl get deployment
+
+kubectl get pod
+
+kubectl logs -f nginx-depl-7d459cf5c8-zbf4t
+
+kubectl create deployment mongo-depl --image=mongo
+
+kubectl get pods
+
+kubectl describe pod mongo-depl-85ddc6d66-sgh9l
+
+kubectl apply -f nginx-deployment.yaml 
+
